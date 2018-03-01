@@ -5,9 +5,10 @@ class Song
     @title = title
   end
 
-def artist
-  @artist
-end
+  def artist
+    @artist
+  end
+
   def artist_name
     if @artist == nil
       nil

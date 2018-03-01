@@ -5,7 +5,7 @@ class Song
     @title = title
   end
 
-  def artist
+  def artist_name
     if @artist == nil
       nil
     else

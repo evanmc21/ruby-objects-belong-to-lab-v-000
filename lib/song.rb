@@ -8,5 +8,5 @@ class Song
   def artist
     @artist ? self.artist.name : nil
   end
-  
+
 end
